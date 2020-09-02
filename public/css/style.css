@@ -1,0 +1,50 @@
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+ }
+ .navbar-material .nav-wrapper .brand-logo-center img {
+    height: 64px;
+}
+#imglogo{
+    width: 64px;
+    height: 64px;
+}
+#contenedorvideo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#imglogochico{
+    height: 55px;
+    width: 55px;
+    display: none;
+}
+section {
+    min-height: 100vh;
+}
+
+/*Device = Tablets, Ipads (portrait)
+  Screen = B/w 600px to 990px*/
+  @media (min-width:606px) and (max-width: 990px)  {
+    #imglogochico{
+        height: 55px;
+        width: 55px;
+        display: none;
+    }
+
+}
+
+/*  Small devices    */
+@media (max-width:605px) {
+
+    #imglogo{
+        height: 55px;
+        width: 55px;
+        display: none;
+    }
+    #imglogochico{
+        height: 55px;
+        width: 55px;
+        display: inline;
+    }
+
+
+}
