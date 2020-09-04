@@ -20,6 +20,26 @@ nav ul li:hover {
 section {
     min-height: 100vh;
 }
+  #ul1 {
+    list-style: none;
+    margin-top: 22vh;
+  }
+  
+    #li1 {
+      display: inline-block;
+      background-color: rgba(146, 138, 139, 0.541);
+      margin: 22.5px;
+      border-radius: 50%;
+    }
+    #icon1 {
+        color: white;
+        display: table-cell;
+        vertical-align: middle; 
+        text-align: center; 
+  
+        height: 150px;
+        width: 150px;   
+  }
 
 /*Device = Tablets, Ipads (portrait)
   Screen = B/w 600px to 990px*/
@@ -29,6 +49,26 @@ section {
         width: 55px;
         display: none;
     }
+    #ul1 {
+        list-style: none;
+        margin-top: 0px;
+      }
+      
+        #li1 {
+          display: inline-block;
+          background-color: rgba(146, 138, 139, 0.541);
+          margin: 22.5px;
+          border-radius: 50%;
+        }
+        #icon1 {
+            color: white;
+            display: table-cell;
+            vertical-align: middle; 
+            text-align: center; 
+      
+            height: 150px;
+            width: 150px;   
+      }
 
 }
 
@@ -45,6 +85,26 @@ section {
         width: 55px;
         display: inline;
     }
+    #ul1 {
+        list-style: none;
+        margin-top: 0px;
+      }
+      
+        #li1 {
+          display: inline-block;
+          background-color: rgba(146, 138, 139, 0.541);
+          margin: 22.5px;
+          border-radius: 50%;
+        }
+        #icon1 {
+            color: white;
+            display: table-cell;
+            vertical-align: middle; 
+            text-align: center; 
+      
+            height: 150px;
+            width: 150px;   
+      }
 
 
 }
